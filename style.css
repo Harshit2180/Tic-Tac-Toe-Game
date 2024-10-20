@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F24236;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+}
+
+.boxes {
+    background-color: #F6F5AE;
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-width: 7rem;
+    height: auto;
+    border: none;
+    border-radius: 8px;
+    color: #2E86AB;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    max-width: 22rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.message {
+    text-align: center;
+    margin: 1.15rem;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #F5F749;
+}
+
+.buttoncontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resetbutton {
+    padding: 1.15rem;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 9px;
+    background-color: #564138;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.initialTurn {
+    text-align: center;
+    margin: 1.15rem;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #F5F749;
+}
+
+/* brown 564138
+blue 2E86AB
+cream F6F5AE
+yellow F5F749
+red F24236 */
