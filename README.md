@@ -10,6 +10,7 @@ Welcome to the Tic-Tac-Toe game! This is a classic two-player game built with HT
 - [How to Run the Project Locally](#how-to-run-the-project-locally)
 - [Game Rules](#game-rules)
 - [Contributing](#contributing)
+- [License](#license)
 
 ## Demo
 
@@ -51,3 +52,6 @@ To run this project locally, follow these steps:
 
 If you’d like to contribute to this project, feel free to fork the repository, make your changes, and submit a pull request.
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
